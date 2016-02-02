@@ -134,13 +134,6 @@ class ToolBar extends React.Component{
 
     return(
       <div className="row">
-        <div className="col-xs-1">
-          <div className="btn-group btn-group-sm" role="group">
-            {exportCSV}
-            {insertBtn}
-            {deleteBtn}
-          </div>
-        </div>
         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4">
           {searchTextInput}
         </div>
