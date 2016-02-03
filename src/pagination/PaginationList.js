@@ -84,7 +84,7 @@ class PaginationList extends React.Component {
         <div className="col-md-6">
         {
           this.props.sizePerPageList.length > 1 ?
-          <div className="dropdown">
+          <div className="dropup">
             <button className="btn btn-default dropdown-toggle" type="button" id="pageDropDown" data-toggle="dropdown"
                     aria-expanded="true">
               {this.state.sizePerPage}
